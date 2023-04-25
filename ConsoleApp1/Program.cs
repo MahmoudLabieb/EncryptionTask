@@ -1,6 +1,8 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
+Console.WriteLine("\a");
+
 string textToShow = @$"enter Char for ur function to use
 1 - for Aes
 2 - for Rsa
@@ -8,6 +10,17 @@ string textToShow = @$"enter Char for ur function to use
 Console.WriteLine(textToShow);
 
 int x = int.Parse(Console.ReadLine());
+
+Console.WriteLine("");
+for (int i = 0; i < 4; i++)
+{
+    Console.Write("\a");
+    Console.Write(".");
+    Thread.Sleep(500);
+
+}
+
+Console.WriteLine("\a");
 
 
 /// <summary>
